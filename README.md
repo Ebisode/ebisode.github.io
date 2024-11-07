@@ -1,2 +1,2 @@
-# ebisode.github.io
+# trainingbooks.github.io
 WEBSITE TO HOLD LEARNING BOOKS
