@@ -9,6 +9,11 @@ a {
     color: black;
 }
 
+main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
 .container {
     width: 20vw;
     padding: 20px;
@@ -22,8 +27,6 @@ a {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-
-    display: grid;
 }
 
 .links {
