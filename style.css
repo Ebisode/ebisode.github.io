@@ -11,7 +11,7 @@ a {
 
 main {
     display: grid;
-    grid-template-columns: 32% 32% 32%;
+    /* grid-template-columns: 32% 32% 32%; */
 }
 
 .container {
