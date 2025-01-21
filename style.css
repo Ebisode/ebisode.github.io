@@ -1,7 +1,8 @@
 body {
-    background-image: url(./assets/background3.png);
+    /* background-image: url(./assets/background3.png); */
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: antiquewhite;
 }
 
 footer {
@@ -60,4 +61,32 @@ main {
 
 .added {
     font-size: 15px;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr 1fr; /* Single column layout for tablets */
+    }
+
+    .container {
+        margin-bottom: 20px; /* Add spacing between containers */
+        width:75%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        font-size: 0.9rem; /* Slightly smaller footer font size for small screens */
+        padding: 8px;
+    }
+
+    main {
+        grid-template-columns: 1fr; /* Single column layout for tablets */
+    }
+
+    .container {
+        font-size: 1.2em; /* Slightly smaller text for small screens */
+        width:75%;
+    }
 }
